@@ -24,7 +24,8 @@
 			"adaptiveIcon": {
 				"foregroundImage": "./assets/adaptive-icon.png",
 				"backgroundColor": "#000"
-			}
+			},
+			"package": "io.hadonis_testing.nhac_cua_tao"
 		},
 		"web": {
 			"favicon": "./assets/favicon.png"
@@ -33,6 +34,20 @@
 		"experiments": {
 			"typedRoutes": true,
 			"tsconfigPaths": true
+		},
+		"extra": {
+			"router": {
+				"origin": false
+			},
+			"eas": {
+				"projectId": "f5031b6d-a591-4724-97ba-1e513dd52466"
+			}
+		},
+		"runtimeVersion": {
+			"policy": "appVersion"
+		},
+		"updates": {
+			"url": "https://u.expo.dev/f5031b6d-a591-4724-97ba-1e513dd52466"
 		}
 	}
 }
